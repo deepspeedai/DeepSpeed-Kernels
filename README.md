@@ -1,11 +1,11 @@
-[![License Apache 2.0](https://badgen.net/badge/license/apache2.0/blue)](https://github.com/Microsoft/DeepSpeed/blob/master/LICENSE)
+[![License Apache 2.0](https://badgen.net/badge/license/apache2.0/blue)](https://github.com/deepspeedai/DeepSpeed/blob/master/LICENSE)
 [![PyPI version](https://badge.fury.io/py/deepspeed-kernels.svg)](https://pypi.org/project/deepspeed-kernels/)
 
 # DeepSpeed Kernels
 
-DeepSpeed-Kernels is a backend library that is used to power [DeepSpeed-FastGen](https://github.com/microsoft/DeepSpeed/tree/master/blogs/deepspeed-fastgen) to achieve accelerated text-generation inference through [DeepSpeed-MII](https://github.com/microsoft/deepspeed-mii). This library is not intended to be an independent user package, but is open-source to benefit the community and show how DeepSpeed is accelerating text-generation.
+DeepSpeed-Kernels is a backend library that is used to power [DeepSpeed-FastGen](https://github.com/deepspeedai/DeepSpeed/tree/master/blogs/deepspeed-fastgen) to achieve accelerated text-generation inference through [DeepSpeed-MII](https://github.com/deepspeedai/DeepSpeed-mii). This library is not intended to be an independent user package, but is open-source to benefit the community and show how DeepSpeed is accelerating text-generation.
 
-The resulting binaries that are compiled from this repo and included in the PyPI release are torch and python agnostic, this allows the core backend to be as portable as possible and leaves the task of compiling torch and python bindings to DeepSpeed itself using it's [JIT op builder](https://github.com/microsoft/DeepSpeed/tree/master/op_builder).
+The resulting binaries that are compiled from this repo and included in the PyPI release are torch and python agnostic, this allows the core backend to be as portable as possible and leaves the task of compiling torch and python bindings to DeepSpeed itself using it's [JIT op builder](https://github.com/deepspeedai/DeepSpeed/tree/master/op_builder).
 
 # Installation
 

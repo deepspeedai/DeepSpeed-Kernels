@@ -100,8 +100,8 @@ setup(name="deepspeed-kernels",
       author_email='deepspeed@microsoft.com',
       url='http://deepspeed.ai',
       project_urls={
-          'Documentation': 'https://github.com/microsoft/DeepSpeed-Kernels',
-          'Source': 'https://github.com/microsoft/DeepSpeed-Kernels',
+          'Documentation': 'https://github.com/deepspeedai/DeepSpeed-Kernels',
+          'Source': 'https://github.com/deepspeedai/DeepSpeed-Kernels',
       },
       install_requires=install_requires,
       extras_require=extras_require,
@@ -110,8 +110,7 @@ setup(name="deepspeed-kernels",
       include_package_data=True,
       packages=find_packages(include=['dskernels']),
       classifiers=[
-          'Programming Language :: Python :: 3.7',
-          'Programming Language :: Python :: 3.8',
           'Programming Language :: Python :: 3.9',
-          'Programming Language :: Python :: 3.10'
+          'Programming Language :: Python :: 3.10',
+          'Programming Language :: Python :: 3.11'
       ])
