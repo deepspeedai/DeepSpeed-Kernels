@@ -55,11 +55,11 @@ if command_exists('git'):
     except subprocess.CalledProcessError:
         pass
 
-# Parse the MII version string from version.txt
+# Parse the ds-kernels version string from version.txt
 version_str = open('version.txt', 'r').read().strip()
 
 # Build specifiers like .devX can be added at install time. Otherwise, add the git hash.
-# example: BUILD_STR=".dev20201022" python setup.py sdist bdist_wheel
+# example: BUILD_STR=".dev20201022" python -m build --sdist --wheel
 
 BUILD_STRING = 'DS_KERNELS_BUILD_STRING'
 BUILD_FILE = 'build.txt'
