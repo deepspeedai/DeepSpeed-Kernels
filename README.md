@@ -32,5 +32,5 @@ pip install -v .
 
 You can create a pre-compiled portable wheel that supports different CUDA architectures via the `CUDA_ARCH_LIST` environment variable. By default the kernels will be compiled using the `native` compute capability. If you want to compile for more than one you can set the `CUDA_ARCH_LIST` environment variable. We currently only support Ampere and above architectures (i.e., 8.0+). See example below to build for GPUs like A100 and A6000:
 ```bash
-CUDA_ARCH_LIST="80;86;89;90" python setup.py bdist_wheel
+CUDA_ARCH_LIST="80;86;89;90" python -m build --wheel
 ```
